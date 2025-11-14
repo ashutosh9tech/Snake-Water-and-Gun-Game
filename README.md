@@ -30,4 +30,4 @@ The program announces the winner.
 
 # Running the Game
 
-Save the script as game.py and run: **python game.py**
+Save the script as game.py and run: **python fun_game.py**
