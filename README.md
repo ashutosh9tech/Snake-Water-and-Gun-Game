@@ -1,3 +1,33 @@
 # Snake-Water-and-Gun-Game
-This repository refers to the fun game programmed through Python. 
-This file consist of two players, one the computer and another user. 1 means snake, -1 means water and 0 for gun. I have imported random module where it allows, the computer to randomly choose any choice between three. The value inputted by the user i.e., **youstr** must be in the dictionary **youDict**. Another dictionary **reverseDict** is created to inform what is value chosen by the computer and user. I have implemented nested if else elif statement to validate the outcome drawn after choosing the values by the respective players.
+This is a simple and fun command-line game based on the classic Snake–Water–Gun rules.
+The player chooses Snake (s), Water (w), or Gun (g), and the computer randomly picks one as well.
+
+# The rules are:
+
+Snake (1) drinks Water (-1) → Snake wins
+
+Water (-1) douses Gun (0) → Water wins
+
+Gun (0) kills Snake (1) → Gun wins
+
+If both choices are the same, the game results in a draw.
+
+# How to Play
+
+Run the script.
+
+When prompted, enter:
+
+s → Snake
+
+w → Water
+
+g → Gun
+
+The computer makes a random choice.
+
+The program announces the winner.
+
+# Running the Game
+
+Save the script as game.py and run: **python game.py**
